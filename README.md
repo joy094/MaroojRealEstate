@@ -57,7 +57,7 @@ You only need a modern web browser (like Chrome, Firefox, or Edge) installed on 
 To ensure continuous accessibility and reliability for all stakeholders, this project is provided with two operational links. The Vercel link serves as a **permanent backup** in case the primary client-managed domain is not renewed.
 
 - **1. Primary Client Domain:**
-  👉 **https://www.roojrealestate.com/**
+  👉 **https://www.maroojrealestate.com/**
 
 - **2. Vercel Backup Link (Permanent Access):**
   (This link guarantees access even if the primary domain expires)
