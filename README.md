@@ -42,11 +42,11 @@ You only need a modern web browser (like Chrome, Firefox, or Edge) installed on 
 
 1.  Clone the repository to your local machine:
     ```bash
-    git clone https://github.com/joy094/MaroojRealEstate
+    git clone https://github.com/joy094/marooj-real-estate
     ```
 2.  Navigate into the project folder:
     ```bash
-    cd MaroojRealEstate
+    cd marooj-real-estate
     ```
 3.  Open the `index.html` file in your preferred web browser to view the site.
 
