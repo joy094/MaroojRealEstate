@@ -74,19 +74,21 @@
       <!-- our Services section -->
 
       <section id="services">
-        <h2>Our Services</h2>
+        <h2>Our Property</h2>
         <div class="services_list">
           <div>
             South Keraniganj,Dhaka.
             <img src="/img/keraniganj.jpg" alt="South Keraniganj,Dhaka" />
-            <button>Book Now</button>
+            <button class="book-btn">Book Now</button>
           </div>
+
           <div>
             South Keraniganj,Dhaka.
 
             <img src="./img/Keraniganj2.jpg " alt="Keraniganj2" />
-            <button>Book Now</button>
+            <button class="book-btn">Book Now</button>
           </div>
+
           <div>
             land location South Keranigonj,Dhaka.
             <iframe
@@ -293,7 +295,7 @@
       </section>
 
       <a
-        href="https://www.facebook.com/"
+        href="https://www.facebook.com/share/1D6hEzqLBX/"
         target="_blank"
         class="facebook-float-btn"
         aria-label="WhatsApp-এ যোগাযোগ করুন"
@@ -312,6 +314,41 @@
         <i class="fab fa-whatsapp"></i>
       </a>
     </main>
+
+    <div id="modalOverlay" class="modal-overlay" class="">
+      <div class="modal-content">
+        <div id="formContainer">
+          <form
+            id="bookingForm"
+            action="https://formspree.io/f/mkndldnj"
+            method="POST"
+            class="bangla_text"
+          >
+            <h3>রিয়েল এস্টেট বুকিং ফর্ম</h3>
+
+            <label for="name">নাম:</label>
+            <input type="text" id="name" name="নাম" required />
+
+            <label for="email">ইমেল:</label>
+            <input type="email" id="email" name="_replyto" required />
+
+            <label for="phone">ফোন নম্বর:</label>
+            <input type="tel" id="phone" name="ফোন_নম্বর" />
+
+            <button type="submit" class="bangla_text book-btn">
+              বুকিং নিশ্চিত করুন
+            </button>
+            <button type="button" class="close-button">X</button>
+          </form>
+
+          <div id="thankYouMessage" style="display: none">
+            <h2>🎉 ধন্যবাদ! সাবমিশন সফল হয়েছে।</h2>
+            <p>আমরা শীঘ্রই আপনার সাথে যোগাযোগ করব।</p>
+            <button type="button" class="close-button">বন্ধ করুন</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <footer>
       <p>&copy; 2025 marooj real estate. All rights reserved.</p>
@@ -336,6 +373,9 @@
       humberger.addEventListener("click", () => {
         menu.classList.toggle("show");
       });
+
+      // Booking Form Script
     </script>
+    <script src="form.js"></script>
   </body>
 </html>
